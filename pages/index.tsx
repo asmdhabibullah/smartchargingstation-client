@@ -80,7 +80,7 @@ const Home: NextPage = () => {
                 } = chargingStationPorts;
 
                 return (
-                  <a href="https://nextjs.org/docs" className={styles.card}>
+                  <a href="https://smartchargingstation.vercel.app" className={styles.card}>
                     <h2>{device} &rarr;</h2>
                     <p>Charging station: ${chargingStationName}.</p>
                     <p>Location: {chargingStationLocation}.</p>
@@ -97,19 +97,6 @@ const Home: NextPage = () => {
 
           </div>
         </main>
-
-        <footer className={styles.footer}>
-          <a
-            href="https://smartchargingstation.vercel.app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Powered by{' '}
-            <span className={styles.logo}>
-              <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-            </span>
-          </a>
-        </footer>
       </div>
     )
   } else {
@@ -132,19 +119,6 @@ const Home: NextPage = () => {
             </a>
           </div>
         </main>
-
-        <footer className={styles.footer}>
-          <a
-            href="https://smartchargingstation.vercel.app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Powered by{' '}
-            <span className={styles.logo}>
-              <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-            </span>
-          </a>
-        </footer>
       </div>
     )
   }
