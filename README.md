@@ -1,4 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Smart Charging Station Client App
+
+Our main objective was to create this project was to reduce the charging cost for all types of charging devices (bikes, cars, mobile, etc.)
+here is a simple list of all the types of technology that we have used
+
+- AWS
+- ESP32
+- Arduino
+-JavaScript
+- TypeScript
+- ReactJs, NextJs
+
+
+This is a [Next.js](https://nextjs.org/) frontend project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
